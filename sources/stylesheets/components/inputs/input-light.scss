@@ -1,13 +1,13 @@
 .input {
     &.input-light {
-        border-color: $color-light;
+        border-color: $c-grey-eighth;
         &:hover {
-            border-color: $color-dark;
-            color: $color-extra-dark;
+            border-color: $c-grey-fifth;
+            color: $c-grey-first;
         }
         &:focus {
-            color: $color-extra-dark;
-            border-color: $color-dark;
+            color: $c-grey-first;
+            border-color: $c-grey-fifth;
         }
     }
 }

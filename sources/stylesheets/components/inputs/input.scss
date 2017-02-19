@@ -2,10 +2,10 @@
 		-webkit-appearance: none;
 	    -moz-appearance: none;
 	    border-style: solid;
-        background: $color-white;
+        background: $c-white;
 	    border-width: $input-border-width;
-	    border-color: $color-first;
-	    color: $color-extra-dark;
+	    border-color: $c-theme-first;
+	    color: $c-grey-first;
 	    display: block;
 	    font-family: inherit;
 	    font-size: $input-font-size;
@@ -25,38 +25,38 @@
             transition: opacity 0.3s ease;
         }
         &::-webkit-input-placeholder {
-            color: $color-light;
+            color: $c-grey-eighth;
             text-overflow: ellipsis;
             opacity: 1;
             transition: opacity 0.3s ease;
         }
         &::-moz-placeholder {
-            color: $color-light;
+            color: $c-grey-eighth;
             text-overflow: ellipsis;
             opacity: 1;
             transition: opacity 0.3s ease;
         }
         &:-moz-placeholder {
-            color: $color-light;
+            color: $c-grey-eighth;
             text-overflow: ellipsis;
             opacity: 1;
             transition: opacity 0.3s ease;
         }
         &:-ms-input-placeholder {
-            color: $color-light;
+            color: $c-grey-eighth;
             text-overflow: ellipsis;
             opacity: 1;
             transition: opacity 0.3s ease;
         }
         &:hover {
-            border-color: $color-fourth;
-            color: $color-extra-dark;
+            border-color: $c-theme-fourth;
+            color: $c-grey-first;
         }
         &:focus {
             box-shadow: none;
             outline: none;
-            color: $color-extra-dark;
-            border-color: $color-fourth;
+            color: $c-grey-first;
+            border-color: $c-theme-fourth;
             &::-webkit-input-placeholder {
                 opacity: 0;
                 transition: opacity 0.3s ease;

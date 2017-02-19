@@ -1,17 +1,18 @@
 .btn {
     &[disabled] {
         cursor: not-allowed;
-        background: $color-light;
-        color: $color-dark;
+        background: $c-grey-eighth;
+        color: $c-grey-fifth;
         &:hover {
-            background: $color-light;
-            color: $color-dark;
-            border-bottom-color: $color-dark;
+            background: $c-grey-eighth;
+            color: $c-grey-fifth;
+            border-bottom-color: $c-grey-fifth;
         }
         &.border-bottom {
-            border-bottom-color: $color-dark;
+            border-bottom-color: $c-grey-fifth;
             &:hover {
-                border-bottom-color: $color-dark;
+                color: $c-grey-fifth !important;
+                border-bottom-color: $c-grey-fifth;
             }
         }
     }

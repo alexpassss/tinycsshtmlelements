@@ -1,13 +1,13 @@
 .btn {
     &.btn-primary {
-        border-color: $color-first;
+        border-color: $c-theme-first;
         &:hover {
-            border-color: $color-fourth;
-            color: $color-extra-dark;
+            border-color: $c-theme-fourth;
+            color: $c-grey-first;
         }
         &:focus {
-            color: $color-extra-dark;
-            border-color: $color-fourth;
+            color: $c-grey-first;
+            border-color: $c-theme-fourth;
         }
     }
 }

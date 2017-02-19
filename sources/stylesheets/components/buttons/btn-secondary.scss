@@ -1,12 +1,12 @@
 .btn {
     &.btn-secondary {
-        background: $color-second;
-        color: $color-extra-dark;
+        background: $c-theme-second;
+        color: $c-white;
         &:hover {
-            background: $color-first;
+            background: $c-theme-first;
         }
         &:active {
-            background: $color-third;
+            background: $c-theme-third;
         }
     }
 }

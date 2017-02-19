@@ -3,11 +3,11 @@
     padding: $label-padding-top-bottom $label-padding-left-right;
     font-size: $label-font-size;
     line-height: $label-line-height;
-    color: $color-white;
+    color: $c-white;
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    background: $color-first;
+    background: $c-theme-first;
     &.label-xs {
         padding: $label-xs-padding-top-bottom $label-xs-padding-left-right;
         font-size: $label-xs-font-size;

@@ -1,8 +1,8 @@
 .badge {
     &.badge-bordered-fat {
-        border: $badge-bordered-fat-border-width solid $color-first;
-        color: $color-first;
-        background: $color-white;
+        border: $badge-bordered-fat-border-width solid $c-theme-first;
+        color: $c-theme-first;
+        background: $c-white;
         &.transparent {
             background: transparent;
         }

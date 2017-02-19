@@ -1,11 +1,11 @@
 .label {
     &.label-dark {
-        background: $color-extra-dark;
-        color: $color-white;
+        background: $c-grey-first;
+        color: $c-white;
         &.label-bordered,
         &.label-bordered-fat {
-            border-color: $color-extra-dark;
-            color: $color-extra-dark;
+            border-color: $c-grey-first;
+            color: $c-grey-first;
         }
     }
 }

@@ -1,10 +1,10 @@
 .label {
     &.label-secondary {
-        background: $color-second;
+        background: $c-theme-second;
         &.label-bordered,
         &.label-bordered-fat {
-            border-color: $color-second;
-            color: $color-second;
+            border-color: $c-theme-second;
+            color: $c-theme-second;
         }
     }
 }

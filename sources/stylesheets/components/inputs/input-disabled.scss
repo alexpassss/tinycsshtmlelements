@@ -1,15 +1,15 @@
 .input {
     &[disabled] {
-        background: $color-extra-light;
-        border-color: $color-light;
+        background: $c-grey-tenth;
+        border-color: $c-grey-eighth;
         cursor: not-allowed;
         &:hover {
-            background: $color-extra-light;
-            border-color: $color-light;
+            background: $c-grey-tenth;
+            border-color: $c-grey-eighth;
         }
         &:focus {
-            background: $color-extra-light;
-            border-color: $color-light;
+            background: $c-grey-tenth;
+            border-color: $c-grey-eighth;
         }
     }
 }

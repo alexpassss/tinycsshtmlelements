@@ -1,10 +1,10 @@
 .label {
     &.label-primary {
-        background: $color-first;
+        background: $c-theme-first;
         &.label-bordered,
         &.label-bordered-fat {
-            border-color: $color-first;
-            color: $color-first;
+            border-color: $c-theme-first;
+            color: $c-theme-first;
         }
     }
 }

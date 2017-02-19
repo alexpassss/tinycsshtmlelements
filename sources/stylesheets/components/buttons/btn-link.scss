@@ -1,17 +1,17 @@
 .btn {
     &.btn-link {
         background: transparent;
-        color: $color-first;
+        color: $c-theme-first;
         &:hover {
-            color: $color-fourth;
+            color: $c-theme-fourth;
         }
         &:active {
-            color: $color-second;
+            color: $c-theme-second;
         }
         &[disabled] {
             cursor: not-allowed;
             pointer-events: none;
-            color: $color-light;
+            color: $c-grey-eighth;
         }
     }
 }

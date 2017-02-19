@@ -1,20 +1,22 @@
 .btn {
     &.btn-primary {
-        background: $color-first;
-        color: $color-extra-dark;
+        background: $c-theme-first;
+        color: $c-white;
         &:hover {
-            background: $color-fourth;
+            color: $c-white !important;
+            background: $c-theme-second;
         }
         &:active {
-            background: $color-second;
+            color: $c-white !important;
+            background: $c-theme-third;
         }
         &.border-bottom {
-            border-bottom: 3px solid $color-second;
+            border-bottom: 3px solid $c-theme-third;
             &:hover {
-                border-bottom: 3px solid $color-fourth;
+                border-bottom: 3px solid $c-theme-third;
             }
             &:active {
-                border-bottom: 3px solid $color-second;
+                border-bottom: 3px solid $c-theme-third;
             }
         }
     }

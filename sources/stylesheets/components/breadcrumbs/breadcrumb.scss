@@ -1,6 +1,6 @@
 .breadcrumb {
     display: block;
-    background: $color-extra-light;
+    background: $c-grey-tenth;
     list-style: none;
     padding: $breadcrumb-padding-top-bottom $breadcrumb-padding-left-right;
     li {
@@ -11,14 +11,14 @@
                 margin-right: 0.3125rem;
                 display: inline;
                 content: '/';
-                color: $color-dark;
+                color: $c-grey-fifth;
             }
         }
         &.active {
-            color: $color-dark;
+            color: $c-grey-fifth;
         }
         a {
-            color: $color-first;
+            color: $c-theme-first;
             text-decoration: none;
         }
     }

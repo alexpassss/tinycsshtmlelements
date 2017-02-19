@@ -1,6 +1,6 @@
 .btn {
     &.btn-to-danger {
-        color: $color-white;
+        color: $c-white;
         &:hover {
             background: $color-danger-light;
         }
@@ -8,7 +8,7 @@
             background: $color-danger-dark;
         }
         &.inverse {
-            color: $color-extra-dark;
+            color: $c-grey-first;
         }
     }
 }

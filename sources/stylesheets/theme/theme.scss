@@ -1,3 +1,46 @@
-@import 'primary-colors';
-@import 'status-colors';
-@import 'default-theme';
+// @import 'primary-colors';
+// @import 'status-colors';
+// @import 'default-theme';
+
+$c-black: #000;
+$c-grey-first: #2E2E2E;
+$c-grey-second: #424242;
+$c-grey-third: #585858;
+$c-grey-fourth: #6E6E6E;
+$c-grey-fifth: #848484;
+$c-grey-sixth: #A4A4A4;
+$c-grey-seventh: #BDBDBD;
+$c-grey-eighth: #D8D8D8;
+$c-grey-ninth: #E6E6E6;
+$c-grey-tenth: #F2F2F2;
+$c-white: #fff;
+
+$c-theme-first: #339BFF;
+$c-theme-second: #4C87BF;
+$c-theme-third: #115CA6;
+$c-theme-fourth: #66B4FF;
+$c-theme-fifth: #8FC8FF;
+$c-theme-sixth: #3C8885;
+$c-theme-seventh: #3C7774;
+$c-theme-eighth: #25706D;
+$c-theme-ninth: #54A5A2;
+$c-theme-tenth: #5EA5A3;
+
+$c-success: #5AA035;
+$c-warning: #B87D3D;
+$c-danger: #B83D3D;
+
+$color-danger-light: #970000;
+$color-danger: #840000;
+$color-danger-dark: #790000;
+
+$color-warning-light: #a37429;
+$color-warning: #986c26;
+$color-warning-dark: #967239;
+
+$color-success-light: #29a354;
+$color-success: #26984e;
+$color-success-dark: #389659;
+
+$color-light-transparent: rgba(230, 230, 230, 0.4);
+$color-extra-dark-transparent: rgba(74, 74, 74, 0.2);

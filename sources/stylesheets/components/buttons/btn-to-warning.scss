@@ -1,6 +1,6 @@
 .btn {
     &.btn-to-warning {
-        color: $color-white;
+        color: $c-white;
         &:hover {
             background: $color-warning-light;
         }
@@ -8,7 +8,7 @@
             background: $color-warning-dark;
         }
         &.inverse {
-            color: $color-extra-dark;
+            color: $c-grey-first;
         }
     }
 }
